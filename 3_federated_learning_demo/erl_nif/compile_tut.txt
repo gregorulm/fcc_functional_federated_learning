@@ -1,0 +1,3 @@
+
+To compile the nif c code:
+gcc -o ann_nif.so -fpic -shared ann_nif.c nif_utils.c fann_utils.c -ldoublefann -lm
